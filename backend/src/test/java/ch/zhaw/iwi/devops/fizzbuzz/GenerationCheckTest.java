@@ -1,6 +1,7 @@
 package ch.zhaw.iwi.devops.fizzbuzz;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class GenerationCheckTest {
@@ -18,13 +19,13 @@ public class GenerationCheckTest {
         GenerationCheck ac = new GenerationCheck();
         Assert.assertEquals("Generation Z", ac.GenerationCheck(2000));
     }
-    @Test
+    @Ignore
 
     public void GenerationCheckY(){
         GenerationCheck ac = new GenerationCheck();
         Assert.assertEquals("Generation Y", ac.GenerationCheck(1982));
     }
-    @Test
+    @Ignore
 
     public void GenerationCheckX(){
         GenerationCheck ac = new GenerationCheck();
