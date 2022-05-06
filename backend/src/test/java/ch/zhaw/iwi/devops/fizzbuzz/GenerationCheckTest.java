@@ -18,13 +18,13 @@ public class GenerationCheckTest {
         Assert.assertEquals("Generation Z", ac.GenerationCheck(2000));
     }
 
-    @Ignore
+    @Test
     public void GenerationCheckY(){
         GenerationCheck ac = new GenerationCheck();
         Assert.assertEquals("Generation Y", ac.GenerationCheck(1982));
     }
 
-    @Ignore
+    @Test
     public void GenerationCheckX(){
         GenerationCheck ac = new GenerationCheck();
         Assert.assertEquals("Generation X", ac.GenerationCheck(1967));
