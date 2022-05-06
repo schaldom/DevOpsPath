@@ -16,6 +16,6 @@ public class GenerationCheck {
         } else if (jahrgang >= 1928 && jahrgang <= 1945){
             return "Generation Silent";
         }          
-        return "undefinierbar";
+        return "undefinierba";
     }
 }
